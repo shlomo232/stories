@@ -1,0 +1,52 @@
+body {
+    background-color: #a8d3f7; /* Sets the background color for the entire page */
+}
+
+.page-header {
+    background-color: #a8d3f7;
+    padding: 10px 0; 
+    text-align: center;
+ /*   width: 40%; /* Adjust width as needed */
+}
+
+.story .topnote {
+    font-style: italic;
+    text-indent: 0; /* Removes indentation */
+    margin-top: 10px; /* Adds space above the subtitle */
+    margin-bottom: 10px; /* Adds a little space below the subtitle */
+}
+
+.story .subtitle {
+    font-weight: bold;
+    text-indent: 0; /* Removes indentation */
+    margin-top: 40px; /* Adds space above the subtitle */
+    margin-bottom: 10px; /* Adds a little space below the subtitle */
+}
+.story .ital {
+    font-style: italic;
+}
+.story .cent {
+    text-align: center;
+}
+
+.story {
+    width: 60%; /* Adjust width as needed */
+    margin: auto;
+    font-family: 'Times New Roman', serif; /* You can choose your preferred font */
+    background-color: white; /* Sets the background color for the story area */
+    padding: 30px; /* Adds some space inside the story container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow around the story area */
+}
+
+.story h1 {
+    text-align: center;
+    font-size: 24px; /* Adjust size as needed */
+    margin-bottom: 20px; /* Adds a little space below the subtitle */
+}
+
+.story p {
+    text-indent: 50px; /* Indentation for the first line of each paragraph */
+    text-align: justify; /* Justify text for a clean look */
+    margin-bottom: -12px; /* Space between paragraphs */
+    line-height: 1.2; /* Adjust line spacing for readability */
+}
